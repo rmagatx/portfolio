@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Scroll Width */
+::-webkit-scrollbar, .dark ::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Scroll Handle */
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #414E66;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8e959e;
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.link-school, .link-course, .link-inspired, .link-built {
+  background-image: linear-gradient(#E11D47, #E11D47);
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding-bottom: 4px;
+  transition: 400ms;
+}
+
+.link-school:hover, .link-course:hover, .link-inspired:hover, .link-built:hover {
+  background-size: 100% 2px;
+}
+
+.card-project:hover .card-name {
+  color: #E11D47;
+}
