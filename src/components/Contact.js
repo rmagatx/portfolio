@@ -39,7 +39,7 @@ function Contact() {
             className="flex border-2 border-slate-800 dark:border-slate-100 text-sm text-slate-800
                      dark:text-slate-100 items-center hover:bg-slate-400 dark:hover:bg-rose-600 duration-200
                        p-4 mt-10 mx-auto"
-            href="mailto:rsmagatca@outlook.com"
+            href="mailto:rmagatx@outlook.com"
           >
             Send A Message
             <span className="ml-2 text-lg">
