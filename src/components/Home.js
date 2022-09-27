@@ -64,7 +64,7 @@ function Home() {
                          hover:bg-slate-400 dark:hover:bg-rose-600 duration-200 p-4 mt-10"
               >
                 <Link
-                  className="flex hover:cursor-pointer text-sm text-slate-800 dark:text-slate-100"
+                  className="flex hover:cursor-pointer text-sm font-medium text-slate-800 dark:text-slate-100"
                   to="contact"
                   smooth={true}
                   duration={500}
