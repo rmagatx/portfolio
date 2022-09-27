@@ -19,10 +19,10 @@ function Contact() {
       <section
         id="contact"
         className="text-slate-800 md:px-[100px]"
-        data-aos="fade"
+        data-aos="fade-up"
         data-aos-once="true"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-duration="2000"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
       >
         <div className="flex flex-col justify-center h-screen max-w-[1000px] mx-auto px-6 md:p-0">
           <h1
@@ -36,7 +36,7 @@ function Contact() {
             always open and I will try to reply back as soon as possible.
           </p>
           <a
-            className="flex border-2 border-slate-800 dark:border-slate-100 text-sm text-slate-800
+            className="contact-button flex border-2 border-slate-800 dark:border-slate-100 text-sm text-slate-800
                      dark:text-slate-100 items-center hover:bg-slate-400 dark:hover:bg-rose-600 duration-200
                        p-4 mt-10 mx-auto"
             href="mailto:rmagatx@outlook.com"

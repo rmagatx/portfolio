@@ -19,10 +19,10 @@ function Stack() {
       <section
         id="stack"
         className="text-slate-800 dark:text-slate-100 md:px-[100px] py-[90px]"
-        data-aos="fade"
+        data-aos="fade-up"
         data-aos-once="true"
         data-aos-anchor-placement="top-bottom"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
       >
         <div className="max-w-[900px] mx-auto px-6 md:p-0">
           <h1
