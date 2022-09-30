@@ -34,10 +34,6 @@ function Projects() {
       <section
         id="projects"
         className="text-slate-800 dark:text-slate-100 md:px-[100px] py-[90px] mt-[100px]"
-        data-aos="fade-up"
-        data-aos-once="true"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-duration="1000"
       >
         <div className="max-w-[1000px] mx-auto px-6 md:p-0">
           <h1

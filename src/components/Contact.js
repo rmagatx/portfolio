@@ -19,10 +19,6 @@ function Contact() {
       <section
         id="contact"
         className="text-slate-800 md:px-[100px]"
-        data-aos="fade-up"
-        data-aos-once="true"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1000"
       >
         <div className="flex flex-col justify-center h-screen max-w-[1000px] mx-auto px-6 md:p-0">
           <h1
