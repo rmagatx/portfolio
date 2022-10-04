@@ -21,7 +21,7 @@ function Home() {
     >
       <main id="home"className="md:px-[100px]">
         <div className="flex flex-col max-w-[1000px] h-screen justify-center mx-auto px-6 md:p-0">
-          <div data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="center-bottom" data-aos-delay="1000">
+          <div data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
             <p className="text-rose-600">Hello, I'm</p>
             <h1 className="font-bold text-4xl sm:text-6xl text-slate-800 dark:text-slate-100 py-3">
               Remelson Magat.
