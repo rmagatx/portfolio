@@ -36,7 +36,7 @@ function Home() {
               />
             </h2>
             <p className="break-words max-w-[600px] pt-3">
-              I'm a student at{" "}
+              I'm a graduate of{" "}
               <a
                 className="link-school text-rose-600"
                 href="https://www.rrc.ca/"
@@ -45,7 +45,7 @@ function Home() {
               >
                 Red River College Polytechnic (RRC Polytech)
               </a>{" "}
-              taking the{" "}
+              in the{" "}
               <a
                 className="link-course text-rose-600"
                 href="https://catalogue.rrc.ca/Programs/WPG/Fulltime/BUSGF-DP"
@@ -56,7 +56,7 @@ function Home() {
               </a>{" "}
               program. I specialize in building and designing exceptional
               digital experiences. Currently, I'm focused on creating responsive
-              websites and web applications.
+              static and dynamic web pages.
             </p>
             <div>
               <button
