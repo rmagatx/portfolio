@@ -19,9 +19,14 @@ function Home() {
       onLeave={handleWaypointLeave}
       topOffset="55%"
     >
-      <main id="home"className="md:px-[100px]">
+      <main id="home" className="md:px-[100px]">
         <div className="flex flex-col max-w-[1000px] h-screen justify-center mx-auto px-6 md:p-0">
-          <div data-aos="fade-up" data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="1000">
+          <div
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="1000"
+          >
             <p className="text-rose-600">Hello, I'm</p>
             <h1 className="font-bold text-4xl sm:text-6xl text-slate-800 dark:text-slate-100 py-3">
               Remelson Magat.
@@ -29,7 +34,10 @@ function Home() {
             <h2 className="hidden lg:block font-bold text-6xl text-slate-600 dark:text-slate-400 py-3">
               I'm{" "}
               <Typed
-                strings={["a Student.", "an aspiring Web Developer."]}
+                strings={[
+                  "an IT Graduate.",
+                  "an aspiring Web Developer.",
+                ]}
                 typeSpeed={80}
                 backSpeed={80}
                 loop
