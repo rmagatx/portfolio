@@ -17,6 +17,14 @@ const stack = [
   },
   {
     id: 3,
+    name: "Weather App",
+    description: "A website where you can search all the cities around the world to check the temperature and weather using Weather API (OpenWeatherMap).",
+    stack: ["React", "Tailwind"],
+    github: "https://github.com/rmagatx/react-weather-app",
+    link: "https://rmagatx.github.io/react-weather-app/"
+  },
+  {
+    id: 4,
     name: "My Blog",
     description: "A static website about myself. Created for my final Web Development 1 project.",
     stack: ["HTML", "CSS", "JavaScript"],
@@ -24,7 +32,7 @@ const stack = [
     link: "https://rsmagat.github.io/renz-about-me"
   },
   {
-    id: 4,
+    id: 5,
     name: "Website Portfolio",
     description: "A static website about what I do as a student/developer.",
     stack: ["React", "Tailwind"],
